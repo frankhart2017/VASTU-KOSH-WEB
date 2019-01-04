@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("shareddb1e.hosting.stackcp.net","vastukosh-32331f64","password98@","vastukosh-32331f64");
+    $link = mysqli_connect(********);
 
     $query = "SELECT * FROM `users` WHERE name= '".mysqli_real_escape_string($link, $_SESSION['name'])."' AND mobile='".
     mysqli_real_escape_string($link, $_SESSION['mobile'])."'";
