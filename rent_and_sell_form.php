@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("shareddb1e.hosting.stackcp.net","vastukosh-32331f64","password98@","vastukosh-32331f64");
+    $link = mysqli_connect(**********);
 
     if(isset($_POST['lsubmit'])) {
         if(isset($_POST['iid']) && !empty($_POST['iid']) && $_POST['ichoice']!='1' && isset($_POST['price']) && !empty($_POST['price'])) {
