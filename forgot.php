@@ -1,6 +1,6 @@
     <?php 
 
-    $link = mysqli_connect("shareddb1e.hosting.stackcp.net","vastukosh-32331f64","password98@","vastukosh-32331f64");
+    $link = mysqli_connect(*******);
     $error='';
     $success=0;
     if(isset($_POST['pass'])) {
