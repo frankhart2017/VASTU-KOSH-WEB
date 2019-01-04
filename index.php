@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("shareddb1e.hosting.stackcp.net","vastukosh-32331f64","password98@","vastukosh-32331f64");
+    $link = mysqli_connect(******);
 
     //This will delete rent and sell items after 30 days. Don't uncomment it till it goes online.
     $curTime = time();
