@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("shareddb1e.hosting.stackcp.net","vastukosh-32331f64","password98@","vastukosh-32331f64");
+    $link = mysqli_connect(*******);
 
     if(isset($_POST['iid']) AND !empty($_POST['iid']) && $_POST['charity']!=1) {
         $query = "SELECT * FROM `items` WHERE iid = '".mysqli_real_escape_string($link, $_POST['iid'])."'";
